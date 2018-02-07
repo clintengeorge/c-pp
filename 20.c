@@ -1,16 +1,16 @@
 # include <stdio.h> 
 # include <conio.h>
-void main() 
+int main() 
 { 
- int i, n, d ; 
+ int i, a, b ; 
  clrscr() ; 
  printf("Enter the limit : ") ; 
- scanf("%d", &n) ; 
+ scanf("%d", &a) ; 
  printf("\nEnter the number : ") ; 
- scanf("%d", &d) ; 
- printf("\nThe numbers divisible by %d are :\n\n", d) ; 
- for(i = 1 ; i <= n ; i++) 
-  if(i % d == 0) 
+ scanf("%d", &b) ; 
+ printf("\nThe numbers divisible by %d are :\n\n", b) ; 
+ for(i = 1 ; i <= a ; i++) 
+  if(i % b == 0) 
    printf("%d\t", i) ; 
- getch() ; 
+ return 0; 
 }
