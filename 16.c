@@ -2,7 +2,8 @@
 #include<conio.h>
 void main()
 {
-    int low, high, i, flag;
+    int low, high, a, flag;
+    clrscr();
     printf("Enter two numbers(intervals): ");
     scanf("%d %d", &low, &high);
 
@@ -10,21 +11,18 @@ void main()
 
     while (low < high)
     {
-        flag = 0;
-
-        for(i = 2; i <= low/2; ++i)
-        {
-            if(low % i == 0)
-            {
-                flag = 1;
-                break;
-            }
-        }
-
-        if (flag == 0)
-            printf("%d ", low);
-
-        ++low;
+    flag = 0;
+    for(a = 3; a <= low/3; ++a)
+    {
+    if(low % a == 0)
+    {
+    flag = 2;
+    break;
+    }
+    }
+    if (flag == 0)
+    printf("%d ", low);
+    ++low;
     }
 
     getch();
