@@ -1,11 +1,12 @@
- */
 #include <stdio.h>
+#include<conio.h>
 #define MAXSIZE 10
  
 void main()
 {
     int array[MAXSIZE];
     int i, j, num, temp;
+    clrscr();
     printf("Enter the value of num \n");
     scanf("%d", &num);
     printf("Enter the elements one by one \n");
