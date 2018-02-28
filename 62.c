@@ -5,6 +5,7 @@ int is_palindrome(unsigned char[]);
 void main()
 {
     int num, num1 = 0, i = 0, j = SIZE - 1, res;
+    clrscr();
     unsigned char c[SIZE];
     printf("Enter a number(max 255)");
     scanf("%d", &num);
