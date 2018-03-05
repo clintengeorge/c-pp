@@ -1,5 +1,6 @@
 #include<stdio.h>
-int main(void)
+#include<conio.h>
+void main(void)
 {
 	int n,i,a,b,c;
 	
@@ -16,5 +17,5 @@ int main(void)
 	c=pow(2,b);
 	printf("\n%d",c);
 	
-	return 0;
+	getch();
 }
