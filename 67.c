@@ -1,7 +1,9 @@
 #include<stdio.h>
+#include<conio.h>
 int main()
 {
     int n,num;
+    clrscr();
     scanf("%d",&num);
     n=num+1;
     while(n!=0)
