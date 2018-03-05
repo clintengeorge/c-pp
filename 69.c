@@ -1,8 +1,10 @@
-#include <stdio.h>
+#include<stdio.h>
+#include<conio.h>
 #include<string.h>
 int main() 
 {
 	int a,b,diff;
+	clrscr();
 	scanf("%d %d",&a,&b);
 	diff=a-b;
 	if(diff%2==0)
